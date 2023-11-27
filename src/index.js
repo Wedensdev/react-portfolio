@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
+import 'swiper/css';
+import "swiper/css/pagination";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/react-modal-video/scss/modal-video.scss';
+import './assets/sass/style.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
