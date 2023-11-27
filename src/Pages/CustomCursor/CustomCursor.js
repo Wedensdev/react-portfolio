@@ -12,7 +12,7 @@ const CustomCursor = () => {
         innerScale={1}
         outerScale={9}
         outerStyle={{
-          border: "3px solid #eb8705",
+          border: "1px solid #eb8705",
         }}
         clickables={[
           "a",
